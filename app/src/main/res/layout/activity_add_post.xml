@@ -1,0 +1,96 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Görsel görüntülemek için ImageView -->
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            android:background="#3BADC8F6" />
+
+        <!-- Görsel yükleme butonu -->
+        <Button
+            android:id="@+id/btnUploadImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Görsel Yükle"
+            android:textColor="@color/white"
+            android:backgroundTint="#3C7AE7"
+            android:layout_marginTop="8dp" />
+
+        <!-- Ad bilgisi için EditText -->
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#AEBDE9"
+            android:textColor="@color/black"
+            android:hint="Ad" />
+
+        <!-- Soyad bilgisi için EditText -->
+        <EditText
+            android:id="@+id/etSurname"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#B7C1EF"
+            android:textColor="@color/black"
+            android:hint="Soyad" />
+
+        <!-- Doğum yeri bilgisi için EditText -->
+        <EditText
+            android:id="@+id/etBirthPlace"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="#AEBDE9"
+            android:textColor="@color/black"
+            android:hint="Doğum Yeri" />
+
+        <!-- Doğum tarihi bilgisi için EditText -->
+        <EditText
+            android:id="@+id/etBirthDate"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="#AEBDE9"
+            android:textColor="@color/black"
+            android:hint="Doğum Tarihi" />
+
+        <!-- Ölüm tarihi bilgisi için EditText -->
+        <EditText
+            android:id="@+id/etDeathDate"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:background="#AEBDE9"
+            android:textColor="@color/black"
+            android:hint="Ölüm Tarihi" />
+
+        <!-- Katkılar bilgisi için EditText -->
+        <EditText
+            android:id="@+id/etContributions"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:background="#AEBDE9"
+            android:textColor="@color/black"
+            android:hint="Katkıları" />
+
+        <!-- Gönderiyi kaydetmek için buton -->
+        <Button
+            android:id="@+id/btnSavePost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kaydet"
+            android:textColor="@color/white"
+            android:backgroundTint="#5869F4"
+            android:layout_marginTop="16dp" />
+    </LinearLayout>
+</ScrollView>

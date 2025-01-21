@@ -1,0 +1,8 @@
+<resources>
+    <!-- Uygulama adı -->
+    <string name="app_name">Bilim İnsanları</string>
+
+    <!-- Menü öğesi adları -->
+    <string name="menu_add_post">Gönderi Ekle</string>
+    <string name="menu_logout">Çıkış</string>
+</resources>

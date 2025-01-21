@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Gönderi ekleme menü öğesi -->
+    <item
+        android:id="@+id/add_post"
+        android:title="Gönderi Ekle"
+        android:icon="@android:drawable/ic_menu_add"
+        app:showAsAction="always" />
+
+    <!-- Çıkış yapma menü öğesi -->
+    <item
+        android:id="@+id/logout"
+        android:title="Çıkış"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"
+        app:showAsAction="never" />
+</menu>
