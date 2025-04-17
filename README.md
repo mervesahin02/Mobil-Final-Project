@@ -1,4 +1,4 @@
-# Mobil Final Project - Bilim İnsanları Paylaşım Uygulaması
+# Mobil Project - Bilim İnsanları Paylaşım Uygulaması
 
 Bu proje, basit bir Instagram benzeri mobil uygulamadır. Kullanıcılar, bilim insanlarıyla ilgili gönderiler paylaşabilir, diğer kullanıcıların gönderilerini görebilir ve Firebase tabanlı bir sistem üzerinden giriş yapabilir.
 
